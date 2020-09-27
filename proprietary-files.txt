@@ -4,3 +4,8 @@ lib/libshowlogo.so
 lib/libsysenv_system.so
 lib64/libsysenv_system.so
 vendor/lib64/libmtk-ril.so:lib64/libmtk-ril.so
+
+#Engineering Mode
+product/priv-app/EngineerMode.apk
+lib/libem_support_jni.so
+lib64/libem_support_jni.so
