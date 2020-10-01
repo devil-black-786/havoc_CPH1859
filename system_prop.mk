@@ -182,6 +182,7 @@ debug.performance.tuning=1
 debug.egl.profiler=1 
 debug.egl.hw=1
 debug.composition.type=gpu 
+debug.hwui.renderer=opengl
 
 #Enable Surface Flinger
 PRODUCT_PROPERTY_OVERRIDES += \ 
