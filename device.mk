@@ -68,6 +68,11 @@ PRODUCT_PACKAGES += \
     init.recovery.usb.rc \
     set_zram.sh
 
+
+# PixelLiveWallpaper
+PRODUCT_PACKAGES += \
+    PixelLiveWallpaperPrebuilt
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
