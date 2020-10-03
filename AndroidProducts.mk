@@ -16,4 +16,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_CPH1859.mk
+    $(LOCAL_DIR)/corvus_CPH1859.mk
