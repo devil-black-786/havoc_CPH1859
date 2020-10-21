@@ -105,6 +105,12 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system_prop.mk
 # Vendor
 TARGET_COPY_OUT_VENDOR := vendor
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
+#Build Broken Rules
+BUILD_BROKEN_DUP_RULES := true
+
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
