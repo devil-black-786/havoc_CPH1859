@@ -55,6 +55,10 @@ PRODUCT_COPY_FILES += \
  PRODUCT_PACKAGES += \
      OPScreenRecorder
 
+# Device Settings
+PRODUCT_PACKAGES += \
+    devicesettings
+
 # Misc
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/misc/factory.ini:$(TARGET_COPY_OUT_SYSTEM)/etc/factory.ini \
