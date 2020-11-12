@@ -16,12 +16,6 @@ on boot
     chown system system /proc/touchpanel/double_tap_enable
     chown 0660 /proc/touchpanel/double_tap_enable
     write /proc/touchpanel/double_tap_enable 1
-    
-    chown system system /sys/kernel/oppo_display/seed
-    chmod 0666 /sys/kernel/oppo_display/seed
-
-    chown system system /proc/touchpanel/game_switch_enable
-    chmod 0666 /proc/touchpanel/game_switch_enable
 
     # Disable edge limit control interface
     chown system system /proc/touchpanel/oppo_tp_limit_enable
