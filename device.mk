@@ -116,5 +116,9 @@ PRODUCT_BOOT_JARS += \
     mediatek-telephony-base \
     mediatek-telephony-common
 
+# ImsInit hack
+PRODUCT_PACKAGES += \
+    ImsInit
+
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/oppo/CPH1859/CPH1859-vendor.mk)
