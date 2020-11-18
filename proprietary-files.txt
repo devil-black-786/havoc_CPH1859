@@ -24,6 +24,7 @@ lib/libimsma.so
 lib/libimsma_adapt.so
 lib/libimsma_rtp.so
 lib/libimsma_socketwrapper.so
+framework/mediatek-ims-wwop-common.jar
 lib/libmtk_vt_service.so
 lib/libmtk_vt_wrapper.so
 lib/libmtkaudio_utils.so
